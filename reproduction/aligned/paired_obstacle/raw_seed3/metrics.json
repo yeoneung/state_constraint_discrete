@@ -1,0 +1,29 @@
+{
+  "value_at_goal": 0.10965939872910915,
+  "domain_bellman_rms": 0.018010561052646507,
+  "domain_bellman_sample_max": 0.41269041308565857,
+  "domain_evaluation_rms": 0.017090922917668446,
+  "domain_evaluation_sample_max": 0.4128965884116398,
+  "box_bellman_rms": 0.13323108665384947,
+  "box_bellman_sample_max": 2.449536415365081,
+  "box_evaluation_rms": 0.13316596870833786,
+  "box_evaluation_sample_max": 2.4495890008005476,
+  "residual_scope": "independent_samples_not_continuum_certificate",
+  "stage": 9,
+  "steps": 50000,
+  "terminal_training_loss": 0.001105548464693129,
+  "elapsed_seconds": 240.92057759998715,
+  "preconditioned_domain_grid_max_error": 0.05862307641712683,
+  "frozen_boundary_bracket_width_domain": 2.3567447993144697e-10,
+  "raw_residual_precision": "float64",
+  "lbfgs_function_evaluations": 324,
+  "total_objective_evaluations": 53202,
+  "grid_seconds": 1.26054469999508,
+  "neural_training_seconds": 15.26573680000729,
+  "sampled_batch_sha256": [
+    "192b502cd416a17eec596c83c617abe1e2d2c2c8b7f7df4f6211184ffa05dff5",
+    "de0b7d8e1f8073a9d274e5d8019e4421e77b0995fc767011c07edd85d83dae53",
+    "eb1f82c774c7da532ad9d956c644430c963973dc45073622a68cdc5dacb9f7e9"
+  ],
+  "sampler_end_sha256": "51c0c2da41e0a919e93a6c5361be69030ca0cb7a5f9d9408a0fc84f3dd21fabf"
+}

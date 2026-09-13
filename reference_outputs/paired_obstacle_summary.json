@@ -1,0 +1,104 @@
+[
+  {
+    "objective": "raw",
+    "seed": 1,
+    "residual_rms": 0.02319604207721813,
+    "evaluation_error": 0.06956806017619227,
+    "policy_error": 0.055014610222675175,
+    "arrivals": [
+      0,
+      0,
+      0
+    ],
+    "violations": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "objective": "grid",
+    "seed": 1,
+    "residual_rms": 0.16054840191480843,
+    "evaluation_error": 0.0222999335821219,
+    "policy_error": 0.028501326679874317,
+    "arrivals": [
+      200,
+      200,
+      200
+    ],
+    "violations": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "objective": "raw",
+    "seed": 2,
+    "residual_rms": 0.02040870006764448,
+    "evaluation_error": 0.057207988848158,
+    "policy_error": 0.05426809043985542,
+    "arrivals": [
+      68,
+      68,
+      67
+    ],
+    "violations": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "objective": "grid",
+    "seed": 2,
+    "residual_rms": 0.1349250814425917,
+    "evaluation_error": 0.014908652557863666,
+    "policy_error": 0.014979419233824454,
+    "arrivals": [
+      200,
+      200,
+      200
+    ],
+    "violations": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "objective": "raw",
+    "seed": 3,
+    "residual_rms": 0.018010561052646507,
+    "evaluation_error": 0.05862307641712683,
+    "policy_error": 0.036030706000821894,
+    "arrivals": [
+      0,
+      0,
+      0
+    ],
+    "violations": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "objective": "grid",
+    "seed": 3,
+    "residual_rms": 0.1345633815946815,
+    "evaluation_error": 0.014627656127154776,
+    "policy_error": 0.00793249070993235,
+    "arrivals": [
+      200,
+      200,
+      200
+    ],
+    "violations": [
+      0,
+      0,
+      0
+    ]
+  }
+]

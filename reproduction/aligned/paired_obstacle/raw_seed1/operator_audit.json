@@ -1,0 +1,21 @@
+{
+  "operator": "centered",
+  "h": 0.01,
+  "epsilon": 0.01,
+  "nu": 0.025,
+  "N": 2.5,
+  "minimum_transition_coefficient": 187.5,
+  "minimum_transition_probability": 0.1874062968515742,
+  "mu": 1000.5,
+  "gamma": 0.9995002498750625,
+  "h_le_epsilon": true,
+  "penalty_bound": 0.09,
+  "running_cost_bound": 5.02,
+  "value_bound": 28.04,
+  "common_exterior_policy": true,
+  "computational_greedy_gap_bound": 0.0,
+  "initial_policy": "inward_default",
+  "improvement_radius": 1.4,
+  "training_radius": 1.7,
+  "cylinder_smooth_domain_theorem_claimed": false
+}

@@ -1,0 +1,114 @@
+{
+  "reference": "reproduction/aligned/final_obstacle/reference_half",
+  "minimum_api_slack": 3.0192325487072753,
+  "stages": [
+    {
+      "stage": 0,
+      "policy_value_error_complete_grid": 4.755970548279318,
+      "policy_value_error_domain_grid": 4.755970548279318,
+      "true_greedy_gap_improvement_grid": 13.57503214570891,
+      "gamma": 0.9995002498750625,
+      "neural_value_mismatch_domain_grid": 0.057497355503031145,
+      "scope": "finite_box_midpoint_Dirichlet_policy_values; no continuum enclosure",
+      "api_rhs": 31.903658042821437,
+      "api_slack": 31.556647536073076
+    },
+    {
+      "stage": 1,
+      "policy_value_error_complete_grid": 0.347010506748362,
+      "policy_value_error_domain_grid": 0.2625921297273788,
+      "true_greedy_gap_improvement_grid": 3.6865848048152747,
+      "gamma": 0.9995002498750625,
+      "neural_value_mismatch_domain_grid": 0.2601902624102687,
+      "scope": "finite_box_midpoint_Dirichlet_policy_values; no continuum enclosure",
+      "api_rhs": 7.720006697834809,
+      "api_slack": 7.531171904316185
+    },
+    {
+      "stage": 2,
+      "policy_value_error_complete_grid": 0.18883479351862364,
+      "policy_value_error_domain_grid": 0.18883479351862364,
+      "true_greedy_gap_improvement_grid": 2.5799731782282445,
+      "gamma": 0.9995002498750625,
+      "neural_value_mismatch_domain_grid": 0.08368806395038564,
+      "scope": "finite_box_midpoint_Dirichlet_policy_values; no continuum enclosure",
+      "api_rhs": 5.348686779763459,
+      "api_slack": 5.323099009849951
+    },
+    {
+      "stage": 3,
+      "policy_value_error_complete_grid": 0.02558776991350764,
+      "policy_value_error_domain_grid": 0.0233401285322489,
+      "true_greedy_gap_improvement_grid": 3.6908919318548974,
+      "gamma": 0.9995002498750625,
+      "neural_value_mismatch_domain_grid": 0.19229437962189685,
+      "scope": "finite_box_midpoint_Dirichlet_policy_values; no continuum enclosure",
+      "api_rhs": 7.407358846132091,
+      "api_slack": 7.271090049267051
+    },
+    {
+      "stage": 4,
+      "policy_value_error_complete_grid": 0.13626879686504018,
+      "policy_value_error_domain_grid": 0.13626879686504018,
+      "true_greedy_gap_improvement_grid": 3.29309345188388,
+      "gamma": 0.9995002498750625,
+      "neural_value_mismatch_domain_grid": 0.08790373251963587,
+      "scope": "finite_box_midpoint_Dirichlet_policy_values; no continuum enclosure",
+      "api_rhs": 6.7223876002845415,
+      "api_slack": 6.695316611620078
+    },
+    {
+      "stage": 5,
+      "policy_value_error_complete_grid": 0.027070988664463114,
+      "policy_value_error_domain_grid": 0.023364891533518527,
+      "true_greedy_gap_improvement_grid": 3.242244452165819,
+      "gamma": 0.9995002498750625,
+      "neural_value_mismatch_domain_grid": 0.16609803066171047,
+      "scope": "finite_box_midpoint_Dirichlet_policy_values; no continuum enclosure",
+      "api_rhs": 6.511546364266134,
+      "api_slack": 6.388124658032863
+    },
+    {
+      "stage": 6,
+      "policy_value_error_complete_grid": 0.12342170623327026,
+      "policy_value_error_domain_grid": 0.12342170623327026,
+      "true_greedy_gap_improvement_grid": 1.83622663689966,
+      "gamma": 0.9995002498750625,
+      "neural_value_mismatch_domain_grid": 0.031595068452645675,
+      "scope": "finite_box_midpoint_Dirichlet_policy_values; no continuum enclosure",
+      "api_rhs": 3.7958133000194803,
+      "api_slack": 3.776960855988035
+    },
+    {
+      "stage": 7,
+      "policy_value_error_complete_grid": 0.018852444031445037,
+      "policy_value_error_domain_grid": 0.01713680691640542,
+      "true_greedy_gap_improvement_grid": 3.279105429096559,
+      "gamma": 0.9995002498750625,
+      "neural_value_mismatch_domain_grid": 0.10819968302903464,
+      "scope": "finite_box_midpoint_Dirichlet_policy_values; no continuum enclosure",
+      "api_rhs": 6.577053880713303,
+      "api_slack": 6.502054514611818
+    },
+    {
+      "stage": 8,
+      "policy_value_error_complete_grid": 0.07499936610148487,
+      "policy_value_error_domain_grid": 0.07499936610148487,
+      "true_greedy_gap_improvement_grid": 1.4965216711976903,
+      "gamma": 0.9995002498750625,
+      "neural_value_mismatch_domain_grid": 0.046966729344096125,
+      "scope": "finite_box_midpoint_Dirichlet_policy_values; no continuum enclosure",
+      "api_rhs": 3.068005227554286,
+      "api_slack": 3.0192325487072753
+    },
+    {
+      "stage": 9,
+      "policy_value_error_complete_grid": 0.04877267884701074,
+      "policy_value_error_domain_grid": 0.04877267884701074,
+      "true_greedy_gap_improvement_grid": 3.2697221991994345,
+      "gamma": 0.9995002498750625,
+      "neural_value_mismatch_domain_grid": 0.06956806017619227,
+      "scope": "finite_box_midpoint_Dirichlet_policy_values; no continuum enclosure"
+    }
+  ]
+}

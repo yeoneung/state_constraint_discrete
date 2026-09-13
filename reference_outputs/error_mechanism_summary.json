@@ -1,0 +1,26 @@
+[
+  {
+    "benchmark": "I",
+    "median_bound_ratio": 6.725538869539898,
+    "max_bound_ratio": 2449.035617480931,
+    "fine_factor": 1024,
+    "fine_difference_rms": 1.0733238233013153e-06,
+    "evaluation_rms": 0.006508179277004299,
+    "iteration_rms": 0.004153843272520582,
+    "mesh_rms": 0.001775940598078643,
+    "bias_proxy_rms": 6.746431762740232e-05,
+    "total_rms": 0.004528713355330763
+  },
+  {
+    "benchmark": "II",
+    "median_bound_ratio": 14.08023773320966,
+    "max_bound_ratio": 85.08885767483534,
+    "fine_factor": 64,
+    "fine_difference_rms": 3.251143013508353e-05,
+    "evaluation_rms": 0.004880113727776695,
+    "iteration_rms": 0.0030757178327751955,
+    "mesh_rms": 0.002800463444663908,
+    "bias_proxy_rms": 0.002619934528377876,
+    "total_rms": 0.007324987117765133
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "kind": "paired_raw",
+  "objective": "raw",
+  "training_uses_frozen_grid_values": false,
+  "uses_optimal_or_exact_solution_labels": false,
+  "grid_boundary": "midpoint Dirichlet M/2; diagnostic only for raw arm",
+  "matched": "initialization, sampler stream, architecture, precision, optimizer and nominal stage budgets",
+  "extra_grid_training_cost_in_grid_arm": true,
+  "initial_model_sha256": "fdb48ae23e66a8b14932ff719df2de123bdbfc527bac16481b99f4c4abdf9c2d",
+  "training_script": "aligned_paired_obstacle.py"
+}

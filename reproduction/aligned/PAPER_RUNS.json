@@ -1,0 +1,101 @@
+{
+  "exact_runs": [
+    "reproduction/aligned/final_exact/boundary_decay_1d_bellman_seed1",
+    "reproduction/aligned/final_exact/boundary_decay_1d_bellman_seed2",
+    "reproduction/aligned/final_exact/boundary_decay_1d_bellman_seed3",
+    "reproduction/aligned/final_exact/boundary_decay_1d_bellman_seed4",
+    "reproduction/aligned/final_exact/boundary_decay_1d_bellman_seed5",
+    "reproduction/aligned/final_exact/boundary_decay_1d_pi_seed1",
+    "reproduction/aligned/final_exact/boundary_decay_1d_pi_seed2",
+    "reproduction/aligned/final_exact/boundary_decay_1d_pi_seed3",
+    "reproduction/aligned/final_exact/boundary_decay_1d_pi_seed4",
+    "reproduction/aligned/final_exact/boundary_decay_1d_pi_seed5",
+    "reproduction/aligned/final_exact/directional_exit_1d_bellman_seed1",
+    "reproduction/aligned/final_exact/directional_exit_1d_bellman_seed2",
+    "reproduction/aligned/final_exact/directional_exit_1d_bellman_seed3",
+    "reproduction/aligned/final_exact/directional_exit_1d_bellman_seed4",
+    "reproduction/aligned/final_exact/directional_exit_1d_bellman_seed5",
+    "reproduction/aligned/final_exact/directional_exit_1d_pi_seed1",
+    "reproduction/aligned/final_exact/directional_exit_1d_pi_seed2",
+    "reproduction/aligned/final_exact/directional_exit_1d_pi_seed3",
+    "reproduction/aligned/final_exact/directional_exit_1d_pi_seed4",
+    "reproduction/aligned/final_exact/directional_exit_1d_pi_seed5",
+    "reproduction/aligned/final_cylinder/cylinder_10_bellman_seed1",
+    "reproduction/aligned/final_cylinder/cylinder_10_bellman_seed2",
+    "reproduction/aligned/final_cylinder/cylinder_10_bellman_seed3",
+    "reproduction/aligned/final_cylinder/cylinder_10_bellman_seed4",
+    "reproduction/aligned/final_cylinder/cylinder_10_bellman_seed5",
+    "reproduction/aligned/final_cylinder/cylinder_10_pi_seed1",
+    "reproduction/aligned/final_cylinder/cylinder_10_pi_seed2",
+    "reproduction/aligned/final_cylinder/cylinder_10_pi_seed3",
+    "reproduction/aligned/final_cylinder/cylinder_10_pi_seed4",
+    "reproduction/aligned/final_cylinder/cylinder_10_pi_seed5",
+    "reproduction/aligned/final_cylinder/cylinder_20_bellman_seed1",
+    "reproduction/aligned/final_cylinder/cylinder_20_bellman_seed2",
+    "reproduction/aligned/final_cylinder/cylinder_20_bellman_seed3",
+    "reproduction/aligned/final_cylinder/cylinder_20_bellman_seed4",
+    "reproduction/aligned/final_cylinder/cylinder_20_bellman_seed5",
+    "reproduction/aligned/final_cylinder/cylinder_20_pi_seed1",
+    "reproduction/aligned/final_cylinder/cylinder_20_pi_seed2",
+    "reproduction/aligned/final_cylinder/cylinder_20_pi_seed3",
+    "reproduction/aligned/final_cylinder/cylinder_20_pi_seed4",
+    "reproduction/aligned/final_cylinder/cylinder_20_pi_seed5",
+    "reproduction/aligned/final_cylinder/cylinder_2_bellman_seed1",
+    "reproduction/aligned/final_cylinder/cylinder_2_bellman_seed2",
+    "reproduction/aligned/final_cylinder/cylinder_2_bellman_seed3",
+    "reproduction/aligned/final_cylinder/cylinder_2_bellman_seed4",
+    "reproduction/aligned/final_cylinder/cylinder_2_bellman_seed5",
+    "reproduction/aligned/final_cylinder/cylinder_2_pi_seed1",
+    "reproduction/aligned/final_cylinder/cylinder_2_pi_seed2",
+    "reproduction/aligned/final_cylinder/cylinder_2_pi_seed3",
+    "reproduction/aligned/final_cylinder/cylinder_2_pi_seed4",
+    "reproduction/aligned/final_cylinder/cylinder_2_pi_seed5",
+    "reproduction/aligned/final_cylinder/cylinder_5_bellman_seed1",
+    "reproduction/aligned/final_cylinder/cylinder_5_bellman_seed2",
+    "reproduction/aligned/final_cylinder/cylinder_5_bellman_seed3",
+    "reproduction/aligned/final_cylinder/cylinder_5_bellman_seed4",
+    "reproduction/aligned/final_cylinder/cylinder_5_bellman_seed5",
+    "reproduction/aligned/final_cylinder/cylinder_5_pi_seed1",
+    "reproduction/aligned/final_cylinder/cylinder_5_pi_seed2",
+    "reproduction/aligned/final_cylinder/cylinder_5_pi_seed3",
+    "reproduction/aligned/final_cylinder/cylinder_5_pi_seed4",
+    "reproduction/aligned/final_cylinder/cylinder_5_pi_seed5"
+  ],
+  "paired_obstacle_manifest": "reproduction/aligned/paired_obstacle/manifest.json",
+  "paired_obstacle_runs": [
+    {
+      "run": "reproduction/aligned/paired_obstacle/raw_seed1",
+      "objective": "raw",
+      "seed": 1
+    },
+    {
+      "run": "reproduction/aligned/paired_obstacle/grid_seed1",
+      "objective": "grid",
+      "seed": 1
+    },
+    {
+      "run": "reproduction/aligned/paired_obstacle/raw_seed2",
+      "objective": "raw",
+      "seed": 2
+    },
+    {
+      "run": "reproduction/aligned/paired_obstacle/grid_seed2",
+      "objective": "grid",
+      "seed": 2
+    },
+    {
+      "run": "reproduction/aligned/paired_obstacle/raw_seed3",
+      "objective": "raw",
+      "seed": 3
+    },
+    {
+      "run": "reproduction/aligned/paired_obstacle/grid_seed3",
+      "objective": "grid",
+      "seed": 3
+    }
+  ],
+  "error_mechanism": "reproduction/aligned/error_mechanism/summary.json",
+  "status": "Published experimental configuration and results",
+  "selection": "All 60 paired explicit-benchmark runs and six paired obstacle runs; final prescribed stages.",
+  "obstacle_runs": []
+}

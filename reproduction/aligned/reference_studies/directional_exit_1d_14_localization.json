@@ -1,0 +1,112 @@
+{
+  "name": "directional_exit_1d",
+  "study": "localization",
+  "config": {
+    "name": "directional_exit_1d",
+    "dim": 1,
+    "seed": 0,
+    "h": 0.005,
+    "epsilon": 0.03,
+    "viscosity_ratio": 0.55,
+    "improvement_radius": 2.02,
+    "training_radius": 10.0,
+    "penalty_radius": 0.3,
+    "penalty_scale": 1.0,
+    "default_policy": "global_inward",
+    "greedy_temperature": 0.0,
+    "nonnegative_value": false,
+    "goal_sampling_fraction": 0.0,
+    "obstacle_outer_disk": false,
+    "cost_cap": 5.0,
+    "width": 96,
+    "depth": 3,
+    "batch_size": 1536,
+    "steps_per_policy": 1000,
+    "policy_iterations": 8,
+    "learning_rate": 0.001,
+    "learning_rate_floor": 0.1,
+    "stage_lr_exponent": 0.0,
+    "refresh_steps": 25,
+    "validation_points": 4096,
+    "metric_points": 10000,
+    "method": "pi",
+    "dtype": "float64",
+    "device": "cpu",
+    "feature_map": "identity",
+    "lbfgs_steps": 0,
+    "optimizer_backend": "standard",
+    "cpu_threads": 2,
+    "finite_check_interval": 25
+  },
+  "operator": "centered",
+  "h": 0.005,
+  "epsilon": 0.03,
+  "nu": 0.0027500000000000003,
+  "N": 0.55,
+  "minimum_transition_coefficient": 10.0,
+  "minimum_transition_probability": 0.04524886877828054,
+  "mu": 221.0,
+  "gamma": 0.995475113122172,
+  "h_le_epsilon": true,
+  "penalty_bound": 0.09,
+  "running_cost_bound": 2.0,
+  "value_bound": 5.0,
+  "common_exterior_policy": true,
+  "computational_greedy_gap_bound": 0.0,
+  "initial_policy": "inward_default",
+  "improvement_radius": 2.02,
+  "training_radius": 10.0,
+  "cylinder_smooth_domain_theorem_claimed": false,
+  "radius": 10.0,
+  "nodes": 4001,
+  "reference_rms": 0.0020369301843618294,
+  "reference_sample_max": 0.006942499030813676,
+  "boundary_bracket_width": 0.0,
+  "reference_iterations": 3,
+  "history": [
+    {
+      "iteration": 0,
+      "value_change": 4.998632324462534,
+      "greedy_gap": 0.0,
+      "bellman_residual_max": 1.5505146294449375,
+      "policy_value_error": 1.0961693121992537,
+      "recursion_slack": 1.0911761658352483
+    },
+    {
+      "iteration": 1,
+      "value_change": 1.096156666663925,
+      "greedy_gap": 0.0,
+      "bellman_residual_max": 6.938720331211429e-05,
+      "policy_value_error": 3.310422735713914e-05,
+      "recursion_slack": 3.2954434473170186e-05
+    },
+    {
+      "iteration": 2,
+      "value_change": 3.310422735713914e-05,
+      "greedy_gap": 0.0,
+      "bellman_residual_max": 5.577760475716786e-13,
+      "policy_value_error": 0.0
+    }
+  ],
+  "upper_history": [
+    {
+      "iteration": 0,
+      "value_change": 4.771171120969815,
+      "greedy_gap": 0.0,
+      "bellman_residual_max": 1.5505146294449375
+    },
+    {
+      "iteration": 1,
+      "value_change": 1.096156666663925,
+      "greedy_gap": 0.0,
+      "bellman_residual_max": 6.938720331211429e-05
+    },
+    {
+      "iteration": 2,
+      "value_change": 3.310422735713914e-05,
+      "greedy_gap": 0.0,
+      "bellman_residual_max": 5.577760475716786e-13
+    }
+  ],
+  "scope": "finite_lattice_double_precision"
+}

@@ -1,0 +1,86 @@
+{
+  "config": {
+    "name": "benchmark_obstacle_2d",
+    "dim": 2,
+    "seed": 0,
+    "h": 0.01,
+    "epsilon": 0.01,
+    "viscosity_ratio": 2.0,
+    "improvement_radius": 1.4,
+    "training_radius": 1.7,
+    "penalty_radius": 0.3,
+    "penalty_scale": 25.0,
+    "default_policy": "global_inward",
+    "greedy_temperature": 0.0,
+    "nonnegative_value": false,
+    "goal_sampling_fraction": 0.0,
+    "obstacle_outer_disk": false,
+    "cost_cap": 5.0,
+    "width": 96,
+    "depth": 3,
+    "batch_size": 1536,
+    "steps_per_policy": 1000,
+    "policy_iterations": 8,
+    "learning_rate": 0.001,
+    "learning_rate_floor": 0.1,
+    "stage_lr_exponent": 0.0,
+    "refresh_steps": 25,
+    "validation_points": 4096,
+    "metric_points": 10000,
+    "method": "pi",
+    "dtype": "float64",
+    "device": "cpu",
+    "feature_map": "identity",
+    "lbfgs_steps": 0,
+    "optimizer_backend": "standard",
+    "cpu_threads": 2,
+    "finite_check_interval": 25
+  },
+  "boundary_value": 14.02,
+  "history": [
+    {
+      "iteration": 0,
+      "bellman_residual_max": 24.08567811888185,
+      "value_change": 13.688889554675178,
+      "seconds": 0.32121989999723155
+    },
+    {
+      "iteration": 1,
+      "bellman_residual_max": 4.884144494487261,
+      "value_change": 4.595627766593516,
+      "seconds": 0.6428339999984019
+    },
+    {
+      "iteration": 2,
+      "bellman_residual_max": 2.0434039476306047,
+      "value_change": 0.30528372060234865,
+      "seconds": 0.9630376999994041
+    },
+    {
+      "iteration": 3,
+      "bellman_residual_max": 0.43747416843420894,
+      "value_change": 0.05491071054078667,
+      "seconds": 1.2818339000077685
+    },
+    {
+      "iteration": 4,
+      "bellman_residual_max": 0.011373861209535763,
+      "value_change": 0.003268941869363884,
+      "seconds": 1.6038059999991674
+    },
+    {
+      "iteration": 5,
+      "bellman_residual_max": 1.2755270268893781e-06,
+      "value_change": 2.8643495093017002e-05,
+      "seconds": 1.9240449000062654
+    },
+    {
+      "iteration": 6,
+      "bellman_residual_max": 1.326050380612287e-11,
+      "value_change": 4.7303995165393076e-09,
+      "seconds": 2.256284400005825
+    }
+  ],
+  "scope": "finite_box_centered_policy_iteration_diagnostic",
+  "converged": true
+}

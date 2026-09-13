@@ -1,0 +1,18 @@
+{
+  "torch": "2.11.0+cu128",
+  "numpy": "2.5.2",
+  "device": "cuda",
+  "cpu_threads": 4,
+  "source_sha256": {
+    "__init__.py": "753cf8d4a007b01699c1c2ca95141532f01895d8aa693f47480ac9bbd8056f57",
+    "network.py": "4029f60d4eea222a4a206624005e84cfb673772bc2a28c2cecf91c8ab07b234c",
+    "operators.py": "3d3a525f52d95703e4b13a14cdf6ed731d2ce04b5ae039be59b43bd8f5588554",
+    "problem.py": "1edb9c26bbb16d8fc20364723ffafee89c8e2b5028ac7ef862d4158c165a7c09",
+    "rbf.py": "3ea875fab0701831d1b61f54567a279bb66dc307094594183708f9501701ecf9",
+    "reference.py": "781ed3c908740590167a0db60359d20b211284bd61e116b948ad46bd108b0736",
+    "sampling.py": "3978b4a498cce16ee768a5087f30d31377bf164a2eebb5b7d187a21649633a8e",
+    "train.py": "a1c5c7a1fcff81a2ad2861504c6a8083f0e709aee43ee848a172ebc37bf03d2b"
+  },
+  "tf32": false,
+  "initial_model_sha256": "fdb48ae23e66a8b14932ff719df2de123bdbfc527bac16481b99f4c4abdf9c2d"
+}

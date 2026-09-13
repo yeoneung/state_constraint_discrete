@@ -1,0 +1,22 @@
+{
+  "rms": 0.0277566546596148,
+  "relative_rms": 0.05577216238281178,
+  "sample_max_error": 0.07307754929988164,
+  "domain_bellman_rms": 0.010989893495665997,
+  "domain_bellman_sample_max": 0.05666693742347199,
+  "domain_evaluation_rms": 0.011057062192339278,
+  "domain_evaluation_sample_max": 0.05666693742347199,
+  "box_bellman_rms": 0.09197738929739492,
+  "box_bellman_sample_max": 1.1250003798490078,
+  "box_evaluation_rms": 0.09293549557953289,
+  "box_evaluation_sample_max": 1.1250003798490078,
+  "residual_scope": "independent_samples_not_continuum_certificate",
+  "validation_precision": "float64",
+  "original_training_precision": "float32",
+  "domain_points": 20000,
+  "box_points": 4096,
+  "box_sampling_seed": 3918273,
+  "checkpoint_sha256": "6411583429f7d5a5afe693738628f223f2927e54e1adf484230023458fb9b830",
+  "final_stage": 5,
+  "validator_sha256": "c27d4fe90f5ac1b4eda75ebb00637eafb134ff68d3938543c90987d8d5059b4d"
+}

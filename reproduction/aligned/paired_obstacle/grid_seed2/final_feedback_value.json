@@ -1,0 +1,8 @@
+{
+  "policy": "greedy policy of checkpoint_final, actually used for rollouts",
+  "policy_value_error_domain_grid": 0.014979419233824454,
+  "policy_value_error_complete_grid": 0.022665640946379906,
+  "policy_value_error_domain_rms": 0.006684074560386031,
+  "boundary_comparison_width_domain": 2.3265533943828132e-10,
+  "scope": "finite-grid midpoint Dirichlet reference; no continuum guarantee"
+}

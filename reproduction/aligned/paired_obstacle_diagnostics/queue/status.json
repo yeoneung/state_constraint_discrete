@@ -1,0 +1,71 @@
+{
+  "pid": 25688,
+  "started_utc": "2026-09-11T03:32:13.763544+00:00",
+  "manifest_sha256": "b9094ffdb3d834d83b8084fb7f5fd6716716e0456ccfbdfdb7abfeeb90e21d9a",
+  "limits": {
+    "gpu": 2,
+    "cpu": 2
+  },
+  "status": "complete",
+  "elapsed_seconds": 357.0470000000205,
+  "pending": [],
+  "active": [],
+  "records": [
+    {
+      "id": "grid_seed1",
+      "resource": "cpu",
+      "exit_code": 0,
+      "artifact_exists": true,
+      "status": "complete",
+      "seconds": 35.469000000011874
+    },
+    {
+      "id": "raw_seed1",
+      "resource": "cpu",
+      "exit_code": 0,
+      "artifact_exists": true,
+      "status": "complete",
+      "seconds": 37.53200000000652
+    },
+    {
+      "id": "raw_seed2",
+      "resource": "cpu",
+      "exit_code": 0,
+      "artifact_exists": true,
+      "status": "complete",
+      "seconds": 81.85899999999674
+    },
+    {
+      "id": "grid_seed2",
+      "resource": "cpu",
+      "exit_code": 0,
+      "artifact_exists": true,
+      "status": "complete",
+      "seconds": 105.17199999999139
+    },
+    {
+      "id": "grid_seed3",
+      "resource": "cpu",
+      "exit_code": 0,
+      "artifact_exists": true,
+      "status": "complete",
+      "seconds": 168.875
+    },
+    {
+      "id": "reference",
+      "resource": "cpu",
+      "exit_code": 0,
+      "artifact_exists": true,
+      "status": "complete",
+      "seconds": 6.092999999993481
+    },
+    {
+      "id": "raw_seed3",
+      "resource": "cpu",
+      "exit_code": 0,
+      "artifact_exists": true,
+      "status": "complete",
+      "seconds": 216.40600000001723
+    }
+  ]
+}

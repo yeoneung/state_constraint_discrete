@@ -1,0 +1,29 @@
+{
+  "value_at_goal": 0.1353189867125587,
+  "domain_bellman_rms": 0.02040870006764448,
+  "domain_bellman_sample_max": 0.2866965751567534,
+  "domain_evaluation_rms": 0.01631762502881259,
+  "domain_evaluation_sample_max": 0.2860837089788544,
+  "box_bellman_rms": 0.12256665161062857,
+  "box_bellman_sample_max": 1.973702675576515,
+  "box_evaluation_rms": 0.12304240296470695,
+  "box_evaluation_sample_max": 1.9841501162899968,
+  "residual_scope": "independent_samples_not_continuum_certificate",
+  "stage": 9,
+  "steps": 50000,
+  "terminal_training_loss": 0.0008789569837972522,
+  "elapsed_seconds": 292.83035169998766,
+  "preconditioned_domain_grid_max_error": 0.057207988848158,
+  "frozen_boundary_bracket_width_domain": 2.3509533209065125e-10,
+  "raw_residual_precision": "float64",
+  "lbfgs_function_evaluations": 209,
+  "total_objective_evaluations": 53152,
+  "grid_seconds": 1.3075395000050776,
+  "neural_training_seconds": 23.315087199996924,
+  "sampled_batch_sha256": [
+    "3bb0963e2c703e08838b9989ea23c078df348cf6a3c94f2ffb9abc8c31e21bda",
+    "3c9a77d629b2f3c31df7f84bf6668f99ebe841983b0290d65710a1895e992699",
+    "3547da23caf150cb1c3b1f7bf2fc69562e9a96d9956040bdce5f519f8541f7c6"
+  ],
+  "sampler_end_sha256": "4c26a0c45a10dfe3c2e40575bbe2c574eaf877515436b26d10571d8ca9461737"
+}

@@ -1,0 +1,102 @@
+{
+  "frozen_utc": "2026-09-11T03:26:11.420701+00:00",
+  "status": "prespecified paired evaluation study",
+  "seeds": [
+    1,
+    2,
+    3
+  ],
+  "test_sampling_seed": 20260911,
+  "test_count": 200,
+  "time_steps": [
+    0.025,
+    0.0125,
+    0.00625
+  ],
+  "horizon": 20,
+  "goal_radius": 0.15,
+  "selection": "all final stages and all three paired seeds; no outcome-based selection",
+  "paired_factors": "identical config, initialization, training sample stream, nominal Adam/LBFGS budgets, precision; only evaluation objective differs",
+  "difference": "raw whole-space frozen residual versus finite-grid frozen policy value with midpoint Dirichlet data; grid cost is extra, not matched wall time",
+  "script_sha256": "857ab4b1feb8c891be035bc76aa976a5ed21155a1993565230929f6209d22268",
+  "jobs": [
+    {
+      "id": "raw_seed1",
+      "resource": "gpu",
+      "script": "code/scripts/aligned_paired_obstacle.py",
+      "args": [
+        "reproduction/aligned/paired_obstacle/seed1.json",
+        "--output",
+        "reproduction/aligned/paired_obstacle/raw_seed1",
+        "--objective",
+        "raw"
+      ],
+      "completion_artifact": "reproduction/aligned/paired_obstacle/raw_seed1/metrics.json"
+    },
+    {
+      "id": "grid_seed1",
+      "resource": "gpu",
+      "script": "code/scripts/aligned_paired_obstacle.py",
+      "args": [
+        "reproduction/aligned/paired_obstacle/seed1.json",
+        "--output",
+        "reproduction/aligned/paired_obstacle/grid_seed1",
+        "--objective",
+        "grid"
+      ],
+      "completion_artifact": "reproduction/aligned/paired_obstacle/grid_seed1/metrics.json"
+    },
+    {
+      "id": "raw_seed2",
+      "resource": "gpu",
+      "script": "code/scripts/aligned_paired_obstacle.py",
+      "args": [
+        "reproduction/aligned/paired_obstacle/seed2.json",
+        "--output",
+        "reproduction/aligned/paired_obstacle/raw_seed2",
+        "--objective",
+        "raw"
+      ],
+      "completion_artifact": "reproduction/aligned/paired_obstacle/raw_seed2/metrics.json"
+    },
+    {
+      "id": "grid_seed2",
+      "resource": "gpu",
+      "script": "code/scripts/aligned_paired_obstacle.py",
+      "args": [
+        "reproduction/aligned/paired_obstacle/seed2.json",
+        "--output",
+        "reproduction/aligned/paired_obstacle/grid_seed2",
+        "--objective",
+        "grid"
+      ],
+      "completion_artifact": "reproduction/aligned/paired_obstacle/grid_seed2/metrics.json"
+    },
+    {
+      "id": "raw_seed3",
+      "resource": "gpu",
+      "script": "code/scripts/aligned_paired_obstacle.py",
+      "args": [
+        "reproduction/aligned/paired_obstacle/seed3.json",
+        "--output",
+        "reproduction/aligned/paired_obstacle/raw_seed3",
+        "--objective",
+        "raw"
+      ],
+      "completion_artifact": "reproduction/aligned/paired_obstacle/raw_seed3/metrics.json"
+    },
+    {
+      "id": "grid_seed3",
+      "resource": "gpu",
+      "script": "code/scripts/aligned_paired_obstacle.py",
+      "args": [
+        "reproduction/aligned/paired_obstacle/seed3.json",
+        "--output",
+        "reproduction/aligned/paired_obstacle/grid_seed3",
+        "--objective",
+        "grid"
+      ],
+      "completion_artifact": "reproduction/aligned/paired_obstacle/grid_seed3/metrics.json"
+    }
+  ]
+}

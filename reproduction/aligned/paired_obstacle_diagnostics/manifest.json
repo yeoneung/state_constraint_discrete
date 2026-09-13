@@ -1,0 +1,75 @@
+{
+  "jobs": [
+    {
+      "id": "grid_seed1",
+      "resource": "cpu",
+      "script": "reproduction/validate_paired_obstacle.py",
+      "args": [
+        "reproduction/aligned/paired_obstacle/grid_seed1"
+      ],
+      "completion_artifact": "reproduction/aligned/paired_obstacle/grid_seed1/diagnostics_complete.json"
+    },
+    {
+      "id": "raw_seed1",
+      "resource": "cpu",
+      "script": "reproduction/validate_paired_obstacle.py",
+      "args": [
+        "reproduction/aligned/paired_obstacle/raw_seed1"
+      ],
+      "completion_artifact": "reproduction/aligned/paired_obstacle/raw_seed1/diagnostics_complete.json"
+    },
+    {
+      "id": "grid_seed2",
+      "resource": "cpu",
+      "script": "reproduction/validate_paired_obstacle.py",
+      "args": [
+        "reproduction/aligned/paired_obstacle/grid_seed2"
+      ],
+      "completion_artifact": "reproduction/aligned/paired_obstacle/grid_seed2/diagnostics_complete.json"
+    },
+    {
+      "id": "raw_seed2",
+      "resource": "cpu",
+      "script": "reproduction/validate_paired_obstacle.py",
+      "args": [
+        "reproduction/aligned/paired_obstacle/raw_seed2"
+      ],
+      "completion_artifact": "reproduction/aligned/paired_obstacle/raw_seed2/diagnostics_complete.json"
+    },
+    {
+      "id": "grid_seed3",
+      "resource": "cpu",
+      "script": "reproduction/validate_paired_obstacle.py",
+      "args": [
+        "reproduction/aligned/paired_obstacle/grid_seed3"
+      ],
+      "completion_artifact": "reproduction/aligned/paired_obstacle/grid_seed3/diagnostics_complete.json"
+    },
+    {
+      "id": "raw_seed3",
+      "resource": "cpu",
+      "script": "reproduction/validate_paired_obstacle.py",
+      "args": [
+        "reproduction/aligned/paired_obstacle/raw_seed3"
+      ],
+      "completion_artifact": "reproduction/aligned/paired_obstacle/raw_seed3/diagnostics_complete.json"
+    },
+    {
+      "id": "reference",
+      "resource": "cpu",
+      "script": "code/scripts/aligned_obstacle_reference_audit.py",
+      "args": [
+        "reproduction/aligned/final_obstacle/reference_half",
+        "--output",
+        "reproduction/aligned/paired_obstacle/reference/test_audit",
+        "--count",
+        "200",
+        "--sampling-seed",
+        "20260911",
+        "--split",
+        "test"
+      ],
+      "completion_artifact": "reproduction/aligned/paired_obstacle/reference/test_audit/obstacle_audit.json"
+    }
+  ]
+}

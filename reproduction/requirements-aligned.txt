@@ -1,0 +1,5 @@
+numpy==2.5.2
+scipy==1.18.0
+matplotlib==3.11.1
+PyYAML==6.0.3
+# Tested PyTorch: 2.11.0+cu128; install its CPU or CUDA wheel for your device.

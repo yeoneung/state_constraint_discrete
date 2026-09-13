@@ -1,0 +1,20 @@
+{
+  "code/scripts/aligned_confinement_diagnostic.py": "729dace183ab218f402f9ab62543d845c46148afdce5d1c528c0f695619a9d67",
+  "code/scripts/aligned_error_mechanism.py": "0e32f3674f457b15240eb0969efaf88bba78e1911e8574422a8017f8eed6672b",
+  "code/scripts/aligned_obstacle_audit.py": "e3209ab1e12aba719b1f767ad42b0c2c2ab21e67f8f10293994c92743d94fd8a",
+  "code/scripts/aligned_obstacle_reference.py": "187dc92356644dc4320017e9cea63d63762c065e54a33db8823b0f0d3758674e",
+  "code/scripts/aligned_obstacle_reference_audit.py": "ec534a398efb080e6f47f557da9fde7c37f80768bee8d2f56ec95ba26134e6c8",
+  "code/scripts/aligned_paired_obstacle.py": "857ab4b1feb8c891be035bc76aa976a5ed21155a1993565230929f6209d22268",
+  "code/scripts/aligned_postprocess_1d.py": "859630d8c5925940ad2c0961958ae4c1dbed34973b9162457278067026132aeb",
+  "code/scripts/aligned_preconditioned_obstacle.py": "71faefbee628bca6298440a2484afed91b676a341b66d06d6e4ea87a12fb1b87",
+  "code/scripts/aligned_reference_studies.py": "9cb2a1a3403d7d848c20f8e3da94e311197a3abcd40bfef61274fb275ff0a246",
+  "code/scripts/run_aligned.py": "70dc28debae8c598bb4b6c01bc60bd0ff73d2f3feec141ef5005eb2d6016f997",
+  "code/src/state_constrained/aligned/__init__.py": "753cf8d4a007b01699c1c2ca95141532f01895d8aa693f47480ac9bbd8056f57",
+  "code/src/state_constrained/aligned/network.py": "4029f60d4eea222a4a206624005e84cfb673772bc2a28c2cecf91c8ab07b234c",
+  "code/src/state_constrained/aligned/operators.py": "3d3a525f52d95703e4b13a14cdf6ed731d2ce04b5ae039be59b43bd8f5588554",
+  "code/src/state_constrained/aligned/problem.py": "1edb9c26bbb16d8fc20364723ffafee89c8e2b5028ac7ef862d4158c165a7c09",
+  "code/src/state_constrained/aligned/rbf.py": "3ea875fab0701831d1b61f54567a279bb66dc307094594183708f9501701ecf9",
+  "code/src/state_constrained/aligned/reference.py": "781ed3c908740590167a0db60359d20b211284bd61e116b948ad46bd108b0736",
+  "code/src/state_constrained/aligned/sampling.py": "3978b4a498cce16ee768a5087f30d31377bf164a2eebb5b7d187a21649633a8e",
+  "code/src/state_constrained/aligned/train.py": "a1c5c7a1fcff81a2ad2861504c6a8083f0e709aee43ee848a172ebc37bf03d2b"
+}
