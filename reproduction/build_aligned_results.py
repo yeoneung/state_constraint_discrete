@@ -126,7 +126,7 @@ def exact_results(manifest):
         r"\begin{tabular}{lrrrr}\toprule & \multicolumn{2}{c}{Relative RMS (\%)} & \multicolumn{2}{c}{Bellman RMS} \\ Benchmark & PI & Direct & PI & Direct \\\midrule"]
     protocol = [r"\begin{table}[tbp]\centering\small\setlength{\tabcolsep}{3pt}",
         r"\caption{Exact-benchmark protocol, common to paired methods. All MLPs have three hidden layers. Adam uses batches of $1024$; L-BFGS uses a fresh fixed batch of $2048$. The last column is the L-BFGS iteration budget per stage.}\label{tab:aligned_protocol}",
-        r"\begin{tabular}{lrrrrrr}\toprule Benchmark & $(\varepsilon,h)$ & $\kappa$ & $(L,L')$ & Width & Adam updates & BFGS \\\midrule"]
+        r"\begin{tabular}{lrrrrrr}\toprule Benchmark & $(\varepsilon,h)$ & $\kappa$ & $(L,L')$ & Width & Adam updates & L-BFGS \\\midrule"]
     fig, axes = plt.subplots(2, 3, figsize=(7., 3.65), layout="constrained")
     learn, lax = plt.subplots(2, 3, figsize=(7., 3.65), layout="constrained")
     for idx, key in enumerate(ORDER):

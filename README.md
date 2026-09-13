@@ -1,7 +1,7 @@
 # State-constrained discrete policy iteration
 
-Reproducible experiments for **State-Constrained Policy Iteration with
-Penalty-Uniform Localization**, by Yeongjong Kim, Jiwoong Jang, and Yeoneung Kim.
+Reproducible experiments for **Penalty-Uniform Localization for
+State-Constrained Policy Iteration**, by Yeongjong Kim, Jiwoong Jang, and Yeoneung Kim.
 
 This repository contains the computational implementation, prescribed run
 configurations, saved-result metadata, verification routines, and plotting code.
